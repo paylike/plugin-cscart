@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sl_paylike</id>
+    <name>Paylike.io payment gateway</name>
+    <version>1.0</version>
+    <priority>5200</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR</auto_install>
+    <status>active</status>
+    <supplier>paylike.io</supplier>
+    <supplier_link>https://paylike.io</supplier_link>
+    <author>
+        <name>CS-Cart.in</name>
+        <url>http://cs-cart.in</url>
+        <email>support@cs-cart.sg</email>
+    </author>
+    <queries>
+        <item for="install">REPLACE INTO ?:payment_processors (`processor`,`processor_script`,`processor_template`,`admin_template`,`callback`,`type`)
+            VALUES ('Paylike','paylike.php', 'views/orders/components/payments/cc_outside.tpl','paylike.tpl', 'Y', 'P');
+        </item>
+    </queries>
+    <functions>
+        <item for="uninstall">sl_paylike_delete_payment_processors</item>
+    </functions>
+</addon>

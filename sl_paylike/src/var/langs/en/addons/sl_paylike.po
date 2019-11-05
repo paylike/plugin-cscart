@@ -1,0 +1,132 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::description::sl_paylike"
+msgid "Paylike payment gateway integration"
+msgstr "Paylike payment gateway integration"
+
+msgctxt "Languages::sl_paylike.mode"
+msgid "sl_paylike.mode"
+msgstr "Mode"
+
+msgctxt "Languages::sl_paylike.public_key"
+msgid "sl_paylike.public_key"
+msgstr "Public key"
+
+msgctxt "Languages::sl_paylike.private_key"
+msgid "sl_paylike.private_key"
+msgstr "Private key"
+
+msgctxt "Languages::sl_paylike.test_public_key"
+msgid "sl_paylike.test_public_key"
+msgstr "Test Public key"
+
+msgctxt "Languages::sl_paylike.test_private_key"
+msgid "sl_paylike.test_private_key"
+msgstr "Test Private key"
+
+msgctxt "Languages::sl_paylike.merchant_name"
+msgid "sl_paylike.merchant_name"
+msgstr "Merchant name"
+
+msgctxt "Languages::sl_paylike.descriptor"
+msgid "sl_paylike.descriptor"
+msgstr "Descriptor"
+
+msgctxt "Languages::sl_paylike.currency"
+msgid "sl_paylike.currency"
+msgstr "Currency"
+
+msgctxt "Languages::sl_paylike.checkout_mode"
+msgid "sl_paylike.checkout_mode"
+msgstr "Checkout mode"
+
+msgctxt "Languages::sl_paylike.delayed_status"
+msgid "sl_paylike.delayed_status"
+msgstr "Delayed mode status"
+
+msgctxt "Languages::sl_paylike.capture_status"
+msgid "sl_paylike.capture_status"
+msgstr "Capture status"
+
+msgctxt "Languages::sl_paylike.void_status"
+msgid "sl_paylike.void_status"
+msgstr "Void status"
+
+msgctxt "Languages::captured"
+msgid "captured"
+msgstr "Captured"
+
+msgctxt "Languages::amount_auth"
+msgid "amount_auth"
+msgstr "Authorized Amount"
+
+msgctxt "Languages::amount_capt"
+msgid "amount_capt"
+msgstr "Captured Amount"
+
+msgctxt "Languages::amount_refu"
+msgid "amount_refu"
+msgstr "Refunded Amount"
+
+msgctxt "Languages::sl_paylike.amount"
+msgid "sl_paylike.amount"
+msgstr "amount"
+
+msgctxt "Languages::sl_paylike.refund"
+msgid "sl_paylike.refund"
+msgstr "Refund"
+
+msgctxt "Languages::sl_paylike.capture_status_help"
+msgid "sl_paylike.capture_status_help"
+msgstr "If checkout mode is delayed, then when the order is set to this status, the addon will try to capture the amount."
+
+msgctxt "Languages::sl_paylike.delayed_status_help"
+msgid "sl_paylike.delayed_status_help"
+msgstr "If checkout mode is delayed, then when the order is placed, it will be set to this status."
+
+msgctxt "Languages::sl_paylike.void_status_help"
+msgid "sl_paylike.void_status_help"
+msgstr "If checkout mode is delayed, then when the order is set to this status will try to void the payment."
+
+msgctxt "Languages::sl_paylike.popup_title"
+msgid "sl_paylike.popup_title"
+msgstr "Popup title"
+
+msgctxt "Languages::sl_paylike.we_are_processing_your_payment_text"
+msgid "sl_paylike.we_are_processing_your_payment_text"
+msgstr "We are processing your payment, please do not refresh the page."
+
+msgctxt "Languages::sl_paylike.authorized_amount"
+msgid "sl_paylike.authorized_amount"
+msgstr "Authorized Amount"
+
+msgctxt "Languages::sl_paylike.captured_amount"
+msgid "sl_paylike.captured_amount"
+msgstr "Captured Amount"
+
+msgctxt "Languages::sl_paylike.refunded_amount"
+msgid "sl_paylike.refunded_amount"
+msgstr "Refunded Amount"
+
+msgctxt "Languages::sl_paylike.order_time"
+msgid "sl_paylike.order_time"
+msgstr "Order time"
+
+msgctxt "Languages::sl_paylike.currency_code"
+msgid "sl_paylike.currency_code"
+msgstr "Currency code"
+
+msgctxt "Languages::sl_paylike.trx_id"
+msgid "sl_paylike.trx_id"
+msgstr "Transaction ID"
+
+msgctxt "Languages::sl_paylike.pay_your_order"
+msgid "sl_paylike.pay_your_order"
+msgstr "Pay your order"
+
+
+
