@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>kp_paylike</id>
+    <name>Paylike.io payment gateway</name>
+    <version>1.1</version>
+    <priority>5200</priority>
+    <position>0</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR</auto_install>
+    <status>active</status>
+    <supplier>Paylike.io</supplier>
+    <supplier_link>http://Paylike.io</supplier_link>
+    <author>
+        <name>Paylike.io</name>
+        <url>http://Paylike.io</url>
+        <email>support@cs-cart.sg</email>
+    </author>
+    <queries>
+        <item for="install">REPLACE INTO ?:payment_processors (`processor`,`processor_script`,`processor_template`,`admin_template`,`callback`,`type`)
+            VALUES ('Paylike','paylike.php', 'views/orders/components/payments/cc_outside.tpl','paylike.tpl', 'Y', 'P');
+        </item>
+    </queries>
+    <functions>
+        <item for="uninstall">kp_paylike_delete_payment_processors</item>
+    </functions>
+</addon>

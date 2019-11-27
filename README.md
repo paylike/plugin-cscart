@@ -9,7 +9,7 @@ Released under the GPL V3 license: https://opensource.org/licenses/GPL-3.0
 
 * The plugin has been tested with most versions of CS-Cart at every iteration. We recommend using the latest version of CS-Cart, but if that is not possible for some reason, test the plugin with your CS-Cart version and it would probably function properly. 
 * CS-Cart
- version last tested on: *4.10.4*
+ version last tested on: *4.11.1*
 
 ## Installation
 
@@ -18,7 +18,7 @@ Released under the GPL V3 license: https://opensource.org/licenses/GPL-3.0
   
   1. Create a live account
   1. Create an app key for your CS-Cart website
-  1. Upload the plugin zip (`sl_paylike.zip`) trough the Add-ons panel and activate it
+  1. Upload the plugin zip (`kp_paylike.zip`) trough the Add-ons panel and activate it
   1. Under Administration -> payment methods create a new payment method and select Paylike as the processor.
   1. On the configure tab, insert the app key and your public key in the settings for the Paylike payment gateway you just created
   

@@ -1,0 +1,149 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::description::kp_paylike"
+msgid "Paylike payment gateway integration"
+msgstr "Paylike payment gateway integration"
+
+msgctxt "Languages::kp_paylike.mode"
+msgid "kp_paylike.mode"
+msgstr "Mode"
+
+msgctxt "Languages::kp_paylike.public_key"
+msgid "kp_paylike.public_key"
+msgstr "Public key"
+
+msgctxt "Languages::kp_paylike.private_key"
+msgid "kp_paylike.private_key"
+msgstr "Private key"
+
+msgctxt "Languages::kp_paylike.test_public_key"
+msgid "kp_paylike.test_public_key"
+msgstr "Test Public key"
+
+msgctxt "Languages::kp_paylike.test_private_key"
+msgid "kp_paylike.test_private_key"
+msgstr "Test Private key"
+
+msgctxt "Languages::kp_paylike.merchant_name"
+msgid "kp_paylike.merchant_name"
+msgstr "Merchant name"
+
+msgctxt "Languages::kp_paylike.descriptor"
+msgid "kp_paylike.descriptor"
+msgstr "Descriptor"
+
+msgctxt "Languages::kp_paylike.currency"
+msgid "kp_paylike.currency"
+msgstr "Currency"
+
+msgctxt "Languages::kp_paylike.checkout_mode"
+msgid "kp_paylike.checkout_mode"
+msgstr "Checkout mode"
+
+msgctxt "Languages::kp_paylike.delayed_status"
+msgid "kp_paylike.delayed_status"
+msgstr "Delayed mode status"
+
+msgctxt "Languages::kp_paylike.capture_status"
+msgid "kp_paylike.capture_status"
+msgstr "Capture status"
+
+msgctxt "Languages::kp_paylike.void_status"
+msgid "kp_paylike.void_status"
+msgstr "Void status"
+
+msgctxt "Languages::captured"
+msgid "captured"
+msgstr "Captured"
+
+msgctxt "Languages::amount_auth"
+msgid "amount_auth"
+msgstr "Authorized Amount"
+
+msgctxt "Languages::amount_capt"
+msgid "amount_capt"
+msgstr "Captured Amount"
+
+msgctxt "Languages::amount_refu"
+msgid "amount_refu"
+msgstr "Refunded Amount"
+
+msgctxt "Languages::voided_amount"
+msgid "voided_amount"
+msgstr "Voided Amount"
+
+msgctxt "Languages::kp_paylike.amount"
+msgid "kp_paylike.amount"
+msgstr "amount"
+
+msgctxt "Languages::kp_paylike.refund"
+msgid "kp_paylike.refund"
+msgstr "Refund"
+
+msgctxt "Languages::kp_paylike.capture_status_help"
+msgid "kp_paylike.capture_status_help"
+msgstr "If checkout mode is delayed, then when the order is set to this status will try to capture the amount."
+
+msgctxt "Languages::kp_paylike.delayed_status_help"
+msgid "kp_paylike.delayed_status_help"
+msgstr "If checkout mode is delayed, then when the order is placed will be set to this status."
+
+msgctxt "Languages::kp_paylike.void_status_help"
+msgid "kp_paylike.void_status_help"
+msgstr "If checkout mode is delayed, then when the order is set to this status will try to void the payment."
+
+msgctxt "Languages::kp_paylike.popup_title"
+msgid "kp_paylike.popup_title"
+msgstr "Popup title"
+
+msgctxt "Languages::kp_paylike.we_are_processing_your_payment_text"
+msgid "kp_paylike.we_are_processing_your_payment_text"
+msgstr "We are processing your payment, please not refresh the page."
+
+msgctxt "Languages::kp_paylike.authorized_amount"
+msgid "kp_paylike.authorized_amount"
+msgstr "Authorized Amount"
+
+msgctxt "Languages::kp_paylike.captured_amount"
+msgid "kp_paylike.captured_amount"
+msgstr "Captured Amount"
+
+msgctxt "Languages::kp_paylike.refunded_amount"
+msgid "kp_paylike.refunded_amount"
+msgstr "Refunded Amount"
+
+msgctxt "Languages::kp_paylike.order_time"
+msgid "kp_paylike.order_time"
+msgstr "Order time"
+
+msgctxt "Languages::kp_paylike.currency_code"
+msgid "kp_paylike.currency_code"
+msgstr "Currency code"
+
+msgctxt "Languages::kp_paylike.trx_id"
+msgid "kp_paylike.trx_id"
+msgstr "Trx ID"
+
+msgctxt "Languages::kp_paylike.pay_your_order"
+msgid "kp_paylike.pay_your_order"
+msgstr "Pay your order"
+
+msgctxt "Languages::refunded"
+msgid "refunded"
+msgstr "Refunded"
+
+msgctxt "Languages::voided"
+msgid "voided"
+msgstr "Voided"
+
+msgctxt "Languages::delayed"
+msgid "delayed"
+msgstr "Delayed"
+
+msgctxt "Languages::reason_text"
+msgid "reason_text"
+msgstr "Processor response"
