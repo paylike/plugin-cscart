@@ -18,7 +18,7 @@ msgstr "Public key"
 
 msgctxt "Languages::kp_paylike.private_key"
 msgid "kp_paylike.private_key"
-msgstr "Private key"
+msgstr "App key"
 
 msgctxt "Languages::kp_paylike.test_public_key"
 msgid "kp_paylike.test_public_key"
@@ -26,7 +26,7 @@ msgstr "Test Public key"
 
 msgctxt "Languages::kp_paylike.test_private_key"
 msgid "kp_paylike.test_private_key"
-msgstr "Test Private key"
+msgstr "Test App key"
 
 msgctxt "Languages::kp_paylike.merchant_name"
 msgid "kp_paylike.merchant_name"
