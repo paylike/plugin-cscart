@@ -35,7 +35,7 @@ if (defined('PAYMENT_NOTIFICATION')) {
         Paylike\Client::setKey( $private_key );
 
         if($order_info && !empty($txnId)) {
-            $cart_amount = $order_info['total']*$currency_multiplier;
+            $cart_amount = \Paylike\Currency::toPaylikeCurrency($order_info['total'], $currency_multiplier);
             if ( $processor_data['processor_params']['checkout_mode'] == 'delayed' ) {
                 $fetch = Paylike\Transaction::fetch( $txnId );
 
