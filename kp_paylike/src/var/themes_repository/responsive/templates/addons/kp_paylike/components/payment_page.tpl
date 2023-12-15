@@ -9,7 +9,13 @@
 <div class="pls-wait" style="display: none; text-align: center; font-size: 14px;">{__("kp_paylike.we_are_processing_your_payment_text")}</div>
 
 {scripts}
-    <script src="https://sdk.paylike.io/3.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+        crossorigin="anonymous" 
+        data-no-defer="">
+</script>
+
+<script src="https://sdk.paylike.io/6.js"></script>
 <script>
     var paylike = Paylike('{$public_key}');
 
@@ -63,6 +69,31 @@
     (function() {
         pay();
     })();
+
+
+    jQuery(document).ready(() => {
+
+        function adjustPopupFontSize() {
+            if (screen.width <= 500) {
+                jQuery('div.paylike.overlay:not(.full-screen) div.payment').css('font-size', '1.5rem');
+            } else if (screen.width <= 800) {
+                jQuery('div.paylike.overlay:not(.full-screen) div.payment').css('font-size', '1rem');
+            } else {
+                jQuery('div.paylike.overlay:not(.full-screen) div.payment').css('font-size', '11px');
+            }
+        }
+        
+        adjustPopupFontSize();
+
+        screen.orientation.addEventListener("change", (e) => {
+            adjustPopupFontSize();
+        });
+        
+        window.addEventListener("resize", (e) => {
+            adjustPopupFontSize();
+        });
+    })
+
 </script>
 {/scripts}
 

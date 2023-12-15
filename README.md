@@ -9,7 +9,7 @@ Released under the GPL V3 license: https://opensource.org/licenses/GPL-3.0
 
 * The plugin has been tested with most versions of CS-Cart at every iteration. We recommend using the latest version of CS-Cart, but if that is not possible for some reason, test the plugin with your CS-Cart version and it would probably function properly. 
 * CS-Cart
- version last tested on: *4.11.1*
+ version last tested on: *4.17.1*
 
 ## Installation
 

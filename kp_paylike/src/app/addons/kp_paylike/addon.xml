@@ -2,7 +2,7 @@
 <addon scheme="3.0">
     <id>kp_paylike</id>
     <name>Paylike.io payment gateway</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <priority>5200</priority>
     <position>0</position>
     <default_language>en</default_language>
@@ -13,7 +13,7 @@
     <author>
         <name>Paylike.io</name>
         <url>http://Paylike.io</url>
-        <email>support@cs-cart.sg</email>
+        <email>support@paylike.io</email>
     </author>
     <queries>
         <item for="install">REPLACE INTO ?:payment_processors (`processor`,`processor_script`,`processor_template`,`admin_template`,`callback`,`type`)
