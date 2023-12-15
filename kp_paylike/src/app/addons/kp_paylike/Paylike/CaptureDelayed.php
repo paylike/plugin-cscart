@@ -61,7 +61,7 @@ class CaptureDelayed {
         $cart_amount = \Paylike\Currency::toPaylikeCurrency($amount,$currency_multiplier);
         $data = array(
             'amount'     => $cart_amount,
-            'descriptor'   => $processor_data['processor_params']['descriptor'],
+            'descriptor'   => isset($processor_data['processor_params']['descriptor']) ? $processor_data['processor_params']['descriptor'] : '',
         );
         $capture = \Paylike\Transaction::refund( $txnId, $data );
         if ( is_array( $capture ) && ! isset( $capture['transaction'] ) ) {
